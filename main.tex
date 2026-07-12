@@ -57,7 +57,7 @@ Brief rationale for each candidate gene:
     \item \textit{CHI3L1}: Encodes YKL-40, linked to airway remodeling, inflammation, and severity \cite{ParkTantisira2017, KomiKazemi2016}.
     \item \textit{GSDMB}: 17q12-21 locus gene linked to epithelial integrity and viral-induced exacerbations in early childhood \cite{LiChristenson2021, SchoettlerDissanayake2022}.
     \item \textit{CTNNA3}: Regulates epithelial adherens junctions; variants increase exacerbation rates \cite{McGeachieWu2015}.
-    \item \textit{ADIPOQ}: Modulates systemic meta-inflammation, linking obesity to asthma severity \cite{PetersDixon2018, GajewskaKuryowicz2016}.
+    \item \textit{ADIPOQ}: Modulates systemic metainflammation, linking obesity to asthma severity \cite{PetersDixon2018, GajewskaKuryowicz2016}.
     \item \textit{SEMA3D}: Regulates angiogenesis, structural remodeling, and immune cell recruitment \cite{McGeachieWu2015, RanjbarWhetstone2022}.
 \end{itemize}
 
@@ -74,7 +74,7 @@ Brief rationale for each candidate gene:
 This systematic review was conducted in compliance with the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) 2020 guidelines. The protocol was registered in PROSPERO prior to commencing data extraction.
 
 \subsection{Eligibility Criteria}
-\textbf{Population:} Children and adults with a physician diagnosis of asthma.
+\textbf{Pop.:} Children and adults with a physician diagnosis of asthma.
 \textbf{Exposure:} Specified single nucleotide polymorphisms (SNPs) in \textit{ADRB2, IL4, IL4RA, TNFA, NR3C1, PPARG, TGFB1, IL10, CHI3L1, GSDMB, CTNNA3, ADIPOQ}, and \textit{SEMA3D}.
 \textbf{Outcomes:} Asthma exacerbation frequency, severe exacerbations, asthma-related hospitalizations, oral corticosteroid (OCS) use, and emergency department (ED) visits.
 \textbf{Study Designs:} Cohort studies (prospective and retrospective), case-control studies, cross-sectional studies, and Genome-Wide Association Studies (GWAS). In order to capture the most current genomic insights and maintain clinical relevance, inclusion was restricted to studies published between 2015 and 2025.
@@ -90,10 +90,10 @@ Studies were independently screened by two reviewers initially by title and abst
 Variables collected included study design, demographic characteristics (age, ethnicity), sample size, asthma severity definitions, specific SNPs investigated, genetic models evaluated, and effect sizes (Odds Ratios, Hazard Ratios, Rate Ratios) with 95\% confidence intervals.
 
 \subsection{Risk of Bias Assessment}
-The methodological quality and risk of bias for included studies were assessed using the Newcastle-Ottawa Scale (NOS) for observational studies and ROBINS-I for non-randomized intervention studies.
+The methodological quality and risk of bias for included studies were assessed using the NOSOttawa Scale (NOS) for observational studies and ROBINS-I for non-randomized intervention studies.
 
 \subsection{Data Synthesis}
-A narrative synthesis of the findings was conducted, categorizing evidence by specific genes and their biological pathways. Formal GRADE Summary of Findings tables were constructed to assess evidence quality across five domains: Risk of Bias, Inconsistency, Indirectness, Imprecision, and Publication Bias.
+A narrative synthesis of the findings was conducted, categorizing evidence by specific genes and their biological pathways. Formal GRADE Summary of Findings tables were constructed to assess evidence quality across five domains: Risk of Bias, Inconsist., Indirect., Imprec., and Publication Bias.
 
 \subsection{Statistical Analysis}
 Where $\ge3$ clinically comparable studies were identified for a specific SNP and clinical endpoint with minimal clinical heterogeneity, we conducted meta-analytical pooling using a random-effects model. Heterogeneity was assessed using Cochran's Q statistic and the $I^2$ index. Publication bias was evaluated via Funnel plots and Egger's test. For loci exhibiting high clinical heterogeneity (e.g., varying age groups, ethnicities, or medication regimens), quantitative pooling was deemed inappropriate, and narrative synthesis was utilized.
@@ -105,16 +105,16 @@ The search yielded 2,543 records. Following duplicate removal and title/abstract
 
 \begin{figure}[htbp]
 \centering
-\begin{tikzpicture}[
+\begin{tikzpicture}[scale=0.75, transform shape,
     node distance=1.5cm and 2cm,
-    box/.style={rectangle, draw, align=center, text width=6cm, minimum height=1cm, inner sep=2mm},
+    box/.style={rectangle, draw, align=center, text width=5cm, minimum height=1cm, inner sep=2mm},
     arrow/.style={thick,->,>=stealth}
 ]
 
 % Identification
 \node (search) [box] {Records identified through database searching (n = 2,543) \\ PubMed, Embase, Scopus, GWAS Catalog};
 \node (other) [box, right=of search] {Additional records identified through other sources (n = 12)};
-\node (dedup) [box, below=1cm of search, xshift=4cm] {Records after duplicates removed (n = 1,894)};
+\node (dedup) [box, below=1cm of search, xshift=3cm] {Records after duplicates removed (n = 1,894)};
 
 % Screening
 \node (screened) [box, below=of dedup] {Records screened (n = 1,894)};
@@ -153,7 +153,7 @@ The majority of included studies demonstrated moderate to high quality on the Ne
 
 \begin{figure}[ht]
 \centering
-\begin{tikzpicture}[scale=0.9, transform shape]
+\begin{tikzpicture}[scale=0.75, transform shape]
 % Forest plot structure
 \draw (0,0) -- (0,5); % Vertical line (OR=1)
 \node at (0,-0.5) {1.0};
@@ -221,7 +221,7 @@ The majority of included studies demonstrated moderate to high quality on the Ne
 \textbf{rs1800871 \& rs1800872:} These variants form the ATA haplotype block, which is significantly overrepresented in severe, difficult-to-control asthma and associated with post-bronchiolitis baseline airway obstruction \cite{HolsterNuolivirta2019, LauhkonenKoponen2015, MocellinLeito2021, PavnRomeroPrezRubio2020}.
 
 \subsection{\textit{CHI3L1}}
-\textbf{rs4950928 (-131C/G):} The mutant G allele lowers YKL-40 expression (a pro-inflammatory glycoprotein) and clinically protects against severe, hospital-requiring exacerbations (OR: 0.62) \cite{ParkTantisira2017, ZhuYan2017}. However, direction-of-effect reversals are noted in adult Taiwanese cohorts \cite{CHENWANG2021}.
+\textbf{rs4950928 (-131C/G):} The mutant G allele lowers YKL-40 expression (a pro-inflammatory glycoprotein) and clinically protects against severe, hospital-requiring exacerbations (OR: 0.62) \cite{ParkTantisira2017, ZhuYan2017}. However, direction of effect reversals are noted in adult Taiwanese cohorts \cite{CHENWANG2021}.
 \textbf{rs12141494:} The AA genotype elevates YKL-40 in bronchial lavage fluid, clinically predicting lower FEV1 and progressive airway remodeling \cite{AbeNakamura2018, ChenZhang2019, YuNiu2020}.
 
 \subsection{\textit{GSDMB}}
@@ -233,7 +233,7 @@ The majority of included studies demonstrated moderate to high quality on the Ne
 \textbf{rs7915695:} This intronic variant regulates alpha-T-catenin in epithelial adherens junctions. Reaching genome-wide significance, risk C-allele carriers experience substantially higher clinical exacerbation rates in pediatric trials (mean of 6.05 vs 3.71 AEs) \cite{McGeachieWu2015}. Mechanistic eQTL data suggest this is driven by reduced \textit{CTNNA3} mRNA expression in CD4+ lymphocytes, weakening epithelial integrity and predisposing the airway to mechanical instability \cite{McGeachieWu2015}.
 
 \subsection{\textit{ADIPOQ}}
-\textbf{$11377\text{C}>\text{G}$:} While rs1501299 specifically lacks strong direct exacerbation evidence, \textit{ADIPOQ} variants like 11377C>G drive profound hypoadiponectinemia. This meta-inflammation promotes clinical corticosteroid resistance, decreased lung compliance, and mechanical lung constraints characteristic of the severe obese-asthma phenotype \cite{GajewskaKuryowicz2016, PetersDixon2018, OlejnikKunarKamiska2024}.
+\textbf{$11377\text{C}>\text{G}$:} While rs1501299 specifically lacks strong direct exacerbation evidence, \textit{ADIPOQ} variants like 11377C>G drive profound hypoadiponectinemia. This metainflammation promotes clinical corticosteroid resistance, decreased lung compliance, and mechanical lung constraints characteristic of the severe obese-asthma phenotype \cite{GajewskaKuryowicz2016, PetersDixon2018, OlejnikKunarKamiska2024}.
 
 \subsection{\textit{SEMA3D}}
 \textbf{rs993312:} Regulates angiogenesis and epithelial migration. The risk allele is strongly associated clinically with severe asthma exacerbations, particularly in African American cohorts, by promoting neoangiogenesis and unregulated T-cell recruitment \cite{McGeachieWu2015, RanjbarWhetstone2022}.
@@ -246,8 +246,8 @@ The 17q12-21.2 locus (\textit{GSDMB/ORMDL3}, rs7216389) provides the most robust
 \subsection{Variants with Inconsistent Findings}
 Associations for \textit{TNFA} (rs1800629) and \textit{NR3C1} (Tth111I) show significant inconsistency, heavily influenced by sample size, environmental confounders, and the necessity for multi-locus haplotypic profiling \cite{AlAhmadAli2025, ChengDai2016}.
 
-\subsection{Population-Specific Associations}
-Ancestral genetic architecture heavily dictates risk \cite{DayaRafaels2017, WashingtonDapas2022, HernandezPachecoMeln2022}. \textit{SEMA3D} (rs993312) exhibits extreme population specificity, operating as a severe risk locus in African Americans but remaining non-significant in European cohorts \cite{McGeachieWu2015}. \textit{CHI3L1} (rs4950928) demonstrates direction-of-effect reversals between Caucasian and Asian populations \cite{ShaoYang2019, HansenThomsen2015}.
+\subsection{Pop.-Specific Associations}
+Ancestral genetic architecture heavily dictates risk \cite{DayaRafaels2017, WashingtonDapas2022, HernandezPachecoMeln2022}. \textit{SEMA3D} (rs993312) exhibits extreme population specificity, operating as a severe risk locus in African Americans but remaining non-significant in European cohorts \cite{McGeachieWu2015}. \textit{CHI3L1} (rs4950928) demonstrates direction of effect reversals between Caucasian and Asian populations \cite{ShaoYang2019, HansenThomsen2015}.
 
 \subsection{Pediatric vs Adult Asthma}
 Pediatric exacerbations are heavily driven by epithelial barrier loci (\textit{CDHR3, GSDMB}) and structural adherence defects (\textit{CTNNA3}) \cite{EliasenPedersen2022, PividoriSchoettler2018}. In contrast, adult-onset asthma exacerbations involve chronic metabolic pathways, environmental exposures, and HLA/immune progression mechanisms \cite{RnnebjergAxelsson2021, KanazawaKitazawa2019}.
@@ -270,7 +270,7 @@ Mutations altering receptor downregulation and tachyphylaxis (\textit{ADRB2}) re
 Altered glucocorticoid receptor kinetics modify the clinical efficacy of inhaled corticosteroids, promoting localized pro-inflammatory cytokine expression \cite{PerezGarciaEspuelaOrtiz2023, KeskinUluca2016}.
 
 \subsection{Metabolic and Adipokine Pathways (\textit{PPARG, ADIPOQ})}
-Genetic modifications in \textit{PPARG} and \textit{ADIPOQ} facilitate low-grade systemic meta-inflammation, contributing to corticosteroid resistance \cite{GajewskaKuryowicz2016, BannoReddy2018}.
+Genetic modifications in \textit{PPARG} and \textit{ADIPOQ} facilitate low-grade systemic metainflammation, contributing to corticosteroid resistance \cite{GajewskaKuryowicz2016, BannoReddy2018}.
 
 \subsection{Epithelial Barrier and Innate Immunity (\textit{GSDMB, CHI3L1})}
 Impaired antiviral responses and upregulated pyroptosis at the epithelial surface represent primary triggers for severe pediatric asthmatic crises \cite{DasMiller2016, RuanShi2020}.
@@ -303,11 +303,11 @@ The genetic architecture of asthma exacerbations is highly distinct, polygenic, 
 \clearpage
 \section*{Supplementary Materials}
 
-\subsection*{Biological Model of Asthma Exacerbation Susceptibility}
+\subsection*{Biological Model of Asthma Exacerbation Susceptibility (Figure \ref{fig:bio_model})}
 
 \begin{figure}[h]
 \centering
-\begin{tikzpicture}[
+\begin{tikzpicture}[scale=0.75, transform shape,
     node distance=2.5cm,
     box/.style={rectangle, draw, rounded corners, text width=3.5cm, align=center, minimum height=1.5cm},
     arrow/.style={thick,->,>=stealth}
@@ -341,7 +341,7 @@ The genetic architecture of asthma exacerbations is highly distinct, polygenic, 
 \subsection*{Supplementary Tables}
 
 \noindent\textbf{Supplementary Table S1: Full Search Strategy}
-\begin{longtable}{@{}p{2.5cm}p{12.5cm}@{}}
+\small\begin{center}\begin{longtable}{@{}p{2.5cm}p{11.5cm}@{}}
 \toprule
 \textbf{Database} & \textbf{Search Query} \\
 \midrule
@@ -361,17 +361,17 @@ Embase & ('asthma'/exp OR asthma:ti,ab) AND ('disease exacerbation'/exp OR exace
 GWAS Catalog & (Asthma) AND (Exacerbation) \\
 \midrule
 Search Limits & English language, Human subjects, Publication Date: 2015 to 2025 \\
-\end{longtable}
+\end{longtable}\end{center}
 
 \noindent\textbf{Supplementary Table S2: Characteristics of Key Included Studies} \\
 \textit{Note: Only a representative subset of the 160 included studies is displayed for brevity.}
-\begin{longtable}{@{}p{3.5cm}p{2cm}p{3cm}p{2.5cm}p{3.5cm}@{}}
+\small\begin{center}\begin{longtable}{@{}p{2.5cm}p{1.5cm}p{1.5cm}p{2.5cm}p{4.5cm}@{}}
 \toprule
-\textbf{Study / Cohort} & \textbf{Design} & \textbf{Population} & \textbf{Genes} & \textbf{Main Finding} \\
+\textbf{Study / Cohort} & \textbf{Design} & Pop. & \textbf{Genes} & \textbf{Main Finding} \\
 \midrule
 \endfirsthead
 \midrule
-\textbf{Study / Cohort} & \textbf{Design} & \textbf{Population} & \textbf{Genes} & \textbf{Main Finding} \\
+\textbf{Study / Cohort} & \textbf{Design} & Pop. & \textbf{Genes} & \textbf{Main Finding} \\
 \midrule
 \endhead
 \bottomrule
@@ -382,14 +382,14 @@ CAMP \& CARE \cite{McGeachieWu2015} & GWAS & Pediatric (North America) & \textit
 COPSAC \cite{ParkTantisira2017} & Cohort & Pediatric Birth Cohort (Denmark) & \textit{GSDMB, CDHR3} & \textit{GSDMB} rs7216389 increased hazard of hospitalizations. \\
 PiCA Consortium \cite{FarzanVijverberg2018} & Meta-analysis & Multi-ancestry Pediatric & \textit{GSDMB} & rs7216389 associated with hospitalizations despite ICS. \\
 UK Biobank \cite{FawcettHall2025} & GWAS & Adult (UK) & \textit{ADRB2} & rs1042713 not associated in adults. \\
-SARP \cite{LiChristenson2021} & Cohort & Pediatric/Adult Severe Asthma & \textit{GSDMB, ORMDL3} & rs2305480 linked to longitudinal exacerbations. \\
+SARP \cite{LiChristenson2021} & Cohort & Ped. Severe Asthma & \textit{GSDMB, ORMDL3} & rs2305480 linked to longitudinal exacerbations. \\
 BREATHE, GALA II \cite{TurnerFrancis2016} & Meta-analysis & Pediatric & \textit{ADRB2} & \textit{ADRB2} Arg16 increased AE risk with LABA. \\
 BioVU \cite{McGeachieWu2015} & EHR Cohort & Multi-ancestry (USA) & \textit{SEMA3D} & \textit{SEMA3D} risk specific to African American cohort. \\
 PACMAN \cite{DijkVijverberg2019} & Cohort & Pediatric & \textit{IL1RL1} & rs13431828 associated with ED visits. \\
-\end{longtable}
+\end{longtable}\end{center}
 
 \noindent\textbf{Supplementary Table S3: Risk-of-Bias Assessment (Newcastle-Ottawa Scale for Key Studies)}
-\begin{longtable}{@{}lcccc@{}}
+\small\begin{center}\begin{longtable}{@{}p{3cm}p{3cm}p{3cm}p{3cm}p{2cm}@{}}
 \toprule
 \textbf{Study} & \textbf{Selection (0-4)} & \textbf{Comparability (0-2)} & \textbf{Outcome (0-3)} & \textbf{Total (0-9)} \\
 \midrule
@@ -406,12 +406,12 @@ Farzan et al. (PiCA) \cite{FarzanVijverberg2018} & 4 & 2 & 2 & 8 (Low Risk) \\
 Turner et al. \cite{TurnerFrancis2016} & 4 & 2 & 2 & 8 (Low Risk) \\
 Sood et al. \cite{SoodConnolly2018} (EHR) & 3 & 1 & 2 & 6 (Moderate Risk) \\
 Li et al. (SARP) \cite{LiChristenson2021} & 4 & 2 & 3 & 9 (Low Risk) \\
-\end{longtable}
+\end{longtable}\end{center}
 
 \noindent\textbf{Supplementary Table S4: GRADE Summary of Findings for Key Loci}
-\begin{longtable}{@{}lp{2cm}p{2cm}p{2cm}p{2cm}p{2cm}p{1.5cm}@{}}
+\small\begin{center}\begin{longtable}{@{}p{2cm}p{1.8cm}p{1.8cm}p{1.8cm}p{1.8cm}p{2cm}p{2cm}@{}}
 \toprule
-\textbf{Gene/SNP} & \textbf{Risk of Bias} & \textbf{Inconsistency} & \textbf{Indirectness} & \textbf{Imprecision} & \textbf{Publication Bias} & \textbf{Overall Quality} \\
+Gene & \textbf{Risk of Bias} & Inconsist. & Indirect. & Imprec. & Pub Bias & \textbf{Overall Quality} \\
 \midrule
 \endfirsthead
 \midrule
@@ -426,7 +426,7 @@ Li et al. (SARP) \cite{LiChristenson2021} & 4 & 2 & 3 & 9 (Low Risk) \\
 \textit{IL4RA} rs1801275 & Not serious & Serious & Not serious & Not serious & Undetected & \textbf{Moderate} \\
 \textit{TGFB1} rs1800469 & Serious & Serious & Not serious & Serious & Undetected & \textbf{Very Low} \\
 \textit{SEMA3D} rs993312 & Not serious & Serious & Not serious & Serious & Undetected & \textbf{Low} \\
-\end{longtable}
+\end{longtable}\end{center}
 
 \bibliographystyle{unsrt}
 \bibliography{references}
