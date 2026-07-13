@@ -256,16 +256,16 @@ Associations for \textit{TNFA} (rs1800629) and \textit{NR3C1} (Tth111I) show sig
 \subsection{Population-Specific Associations}
 Ancestral genetic architecture heavily dictates risk \cite{DayaRafaels2017, WashingtonDapas2022, HernandezPachecoMeln2022}. \textit{SEMA3D} (rs993312) exhibits extreme population specificity, operating as a severe risk locus in African Americans but remaining non-significant in European cohorts \cite{McGeachieWu2015}. \textit{CHI3L1} (rs4950928) demonstrates direction of effect reversals between Caucasian and Asian populations \cite{ShaoYang2019, HansenThomsen2015}.
 
-\subsection{Pediatric vs Adult Asthma}
-Pediatric exacerbations are heavily driven by epithelial barrier loci (\textit{CDHR3, GSDMB}) and structural adherence defects (\textit{CTNNA3}) \cite{EliasenPedersen2022, PividoriSchoettler2018}. In contrast, adult-onset asthma exacerbations involve chronic metabolic pathways, environmental exposures, and HLA/immune progression mechanisms \cite{RnnebjergAxelsson2021, KanazawaKitazawa2019}.
+\subsection{Life-Course Genetic Trajectories (Pediatric vs. Adult Asthma)}
+Rather than operating via a strict pediatric vs. adult dichotomy, genetic risk dictates life-course trajectories. Early-childhood exacerbations are heavily driven by epithelial barrier loci (\textit{CDHR3, GSDMB}) and structural adherence defects (\textit{CTNNA3}), primarily due to viral-naivety \cite{EliasenPedersen2022, PividoriSchoettler2018}. As these impacts wane, adult-onset and late-stage exacerbations are disproportionately driven by genes interacting with accumulated environmental exposures, such as chronic metabolic pathways (\textit{ADIPOQ, PPARG}) and HLA/immune progression mechanisms \cite{RnnebjergAxelsson2021, KanazawaKitazawa2019}.
 
 \subsection{Severe vs Mild Exacerbations}
 Many loci, such as \textit{CHI3L1} rs4950928, specifically modulate the risk of catastrophic, hospital-requiring events (severe exacerbations) while demonstrating no statistical association with milder out-patient flares \cite{ParkTantisira2017, RamphulLo2021}.
 
 \section{Biological Interpretation of Findings}
 
-\subsection{Type 2 Inflammation Pathway (\textit{IL4, IL4RA, IL10})}
-Variants in \textit{IL4} and \textit{IL4RA} function as gain-of-function mutations that amplify Th2 polarization, mast cell recruitment, and IgE production. \textit{IL10} promoter deficiencies remove the homeostatic brake on these pathways \cite{MasoodOthman2025, RamachandraDavoodi2015}. Clinically, these variants heavily predispose patients to distinct \textbf{Type-2 (T2-High) exacerbation endotypes}, characterized by pronounced peripheral blood and sputum eosinophilia, elevated Fractional Exhaled Nitric Oxide (FeNO), and robust responsiveness to systemic corticosteroids and biologic therapies (e.g., anti-IL-4R$\alpha$).
+\subsection{Type 2 Inflammation Pathway (\textit{IL4, IL4RA, IL5, IL10})}
+Variants in \textit{IL4} and \textit{IL4RA} function as gain-of-function mutations that amplify Th2 polarization, mast cell recruitment, and IgE production. \textit{IL10} promoter deficiencies remove the homeostatic brake on these pathways \cite{MasoodOthman2025, RamachandraDavoodi2015}. While direct exacerbation GWAS signals for \textit{IL5} and \textit{IL5RA} are sparser, this axis is biologically indispensable for mediating terminal eosinophil differentiation, survival, and degranulation during acute flares. Clinically, these variants heavily predispose patients to distinct \textbf{Type-2 (T2-High) exacerbation endotypes}, characterized by pronounced peripheral blood and sputum eosinophilia, elevated Fractional Exhaled Nitric Oxide (FeNO), and robust responsiveness to systemic corticosteroids and targeted biologic therapies (e.g., anti-IL-4R$\alpha$, anti-IL-5, and anti-IL-5R$\alpha$).
 
 \subsection{Airway Remodeling Pathway (\textit{TGFB1, CTNNA3, SEMA3D})}
 \textit{TGFB1} overexpression drives subepithelial fibrosis, while \textit{CTNNA3} and \textit{SEMA3D} defects impair epithelial adherens junctions and dysregulate angiogenesis \cite{KowinJonakowski2025, IerodiakonouPortelli2016}. In stark contrast to the T2-High loci, variants in these tissue remodeling and structural genes map to \textbf{non-T2 (T2-Low) exacerbation endotypes}. These neutrophilic or paucigranulocytic flares are driven by structural mechanical instability rather than eosinophilic inflammation, rendering them notoriously refractory to standard high-dose corticosteroid interventions.
@@ -369,7 +369,7 @@ PubMed & ("Asthma"[Mesh] OR "asthma"[Title/Abstract]) AND ("Asthma/complications
 \midrule
 Embase & ('asthma'/exp OR asthma:ti,ab) AND ('disease exacerbation'/exp OR exacerbation:ti,ab OR severe:ti,ab OR hospitalization:ti,ab) AND ('single nucleotide polymorphism'/exp OR SNP:ti,ab OR variant:ti,ab OR GWAS:ti,ab) AND (ADRB2 OR IL4 OR IL4RA OR TNFA OR NR3C1 OR PPARG OR TGFB1 OR IL10 OR CHI3L1 OR GSDMB OR CTNNA3 OR ADIPOQ OR SEMA3D OR FCER2 OR GLCCI1) \\
 \midrule
-GWAS Catalog & (Asthma) AND (Exacerbation) \\
+GWAS Catalog & (EFO\_0000270 [asthma]) AND (EFO\_0004245 [exacerbation] OR severe) \\
 \midrule
 Search Limits & English language, Human subjects, Publication Date: 2015 to 2025 \\
 \end{longtable}\end{center}
