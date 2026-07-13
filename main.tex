@@ -75,7 +75,7 @@ This systematic review was conducted in compliance with the Preferred Reporting 
 
 \subsection{Eligibility Criteria}
 \textbf{Population:} Children and adults with a physician diagnosis of asthma.
-\textbf{Exposure:} Specified single nucleotide polymorphisms (SNPs) in \textit{ADRB2, IL4, IL4RA, TNFA, NR3C1, PPARG, TGFB1, IL10, CHI3L1, GSDMB, CTNNA3, ADIPOQ}, and \textit{SEMA3D}.
+\textbf{Exposure:} Specified single nucleotide polymorphisms (SNPs) in \textit{ADRB2, IL4, IL4RA, TNFA, NR3C1, PPARG, TGFB1, IL10, CHI3L1, GSDMB, CTNNA3, ADIPOQ, SEMA3D, FCER2}, and \textit{GLCCI1}.
 \textbf{Outcomes:} Asthma exacerbation frequency, severe exacerbations, asthma-related hospitalizations, oral corticosteroid (OCS) use, and emergency department (ED) visits.
 \textbf{Study Designs:} Cohort studies (prospective and retrospective), case-control studies, cross-sectional studies, and Genome-Wide Association Studies (GWAS). In order to capture the most current genomic insights and maintain clinical relevance, inclusion was restricted to studies published between 2015 and 2025.
 
@@ -146,6 +146,11 @@ The included studies encompassed a diverse range of populations, from prospectiv
 The majority of included studies demonstrated moderate to high quality on the Newcastle-Ottawa Scale (NOS). However, retrospective electronic health record studies were noted to have a higher risk of bias regarding medication adherence control compared to prospective clinical trials \cite{McGeachieWu2015, SoodConnolly2018}. Supplementary Table S3 provides the exact NOS scores across all domains for the key included studies.
 
 \section{Associations Between Specific Genetic Variants and Asthma Exacerbations}
+
+\subsection{Pharmacogenes Governing Treatment Failure (\textit{FCER2, GLCCI1})}
+\textbf{\textit{FCER2} (rs28364072):} The low-affinity IgE receptor variant is a highly validated driver of severe exacerbations in pediatric patients undergoing active inhaled corticosteroid (ICS) therapy. The risk T allele elevates baseline IgE and impairs the normal ICS-mediated suppression of IgE, conferring a dose-dependent increase in hospital-requiring exacerbations despite high adherence \cite{Koplin2013}.
+
+\textbf{\textit{GLCCI1} (rs37973):} A critical determinant of ICS efficacy. The homozygous mutant genotype (TT) results in decreased Glucocorticoid-Induced Transcript 1 expression, directly causing decreased early response to ICS and a massively increased longitudinal frequency of severe exacerbations (HR > 2.0) across diverse asthmatic cohorts \cite{Tantisira2011}.
 
 \subsection{\textit{ADRB2}}
 \textbf{rs1042713 (Arg16Gly):} This variant modulates $\beta2$-receptor downregulation and desensitization. In children treated with combination ICS+LABA, the Arg16 (A) allele is associated with an increased risk of exacerbations, likely due to enhanced agonist-promoted receptor tachyphylaxis \cite{TurnerFrancis2016, SlobRichards2021}. Meta-analysis of 3 comparable pediatric cohorts indicates a pooled risk (Pooled OR: 1.52, 95\% CI: 1.17–1.99, P=0.0021; Figure \ref{fig:forest}) \cite{TurnerFrancis2016}. However, due to the limited number of studies ($k=3$), the random-effects estimation of between-study variance and the reported heterogeneity metrics ($I^2 = 0\%$, Cochran's Q $p > 0.05$) are statistically underpowered and should be interpreted with caution. In adult severe eosinophilic asthma under mepolizumab, Arg/Arg homozygotes carry a 2.3-fold higher hazard of severe exacerbations \cite{NolascoFagone2025}.
@@ -224,13 +229,15 @@ The majority of included studies demonstrated moderate to high quality on the Ne
 \textbf{rs4950928 (-131C/G):} The mutant G allele lowers YKL-40 expression (a pro-inflammatory glycoprotein) and clinically protects against severe, hospital-requiring exacerbations (OR: 0.62) \cite{ParkTantisira2017, ZhuYan2017}. However, direction of effect reversals are noted in adult Taiwanese cohorts \cite{CHENWANG2021}.
 \textbf{rs12141494:} The AA genotype elevates YKL-40 in bronchial lavage fluid, clinically predicting lower FEV1 and progressive airway remodeling \cite{AbeNakamura2018, ChenZhang2019, YuNiu2020}.
 
-\subsection{\textit{GSDMB}}
-\textbf{rs7216389:} An eQTL upregulating \textit{GSDMB} and \textit{ORMDL3}. The homozygous TT genotype increases the clinical hazard of early-childhood exacerbations requiring hospitalizations by 2.66-fold \cite{ParkTantisira2017, KhanBano2025}. A meta-analysis of the PiCA consortium (n = 4,254) robustly associates it with hospitalizations despite ICS use \cite{FarzanVijverberg2018, HernandezPachecoVijverberg2020}. It alters rhinovirus-induced antiviral IFN-$\beta$ production \cite{RamosNinoRamdass2024, KarunasFedorova2021}.
-\textbf{rs2305480:} The G risk allele associates with longitudinal clinical exacerbations and interacts powerfully with \textit{CDHR3} to confer an 11-fold increased risk of severe childhood asthma \cite{LiChristenson2021, EliasenPedersen2022}.
-\textbf{rs4794820 (ORMDL3):} Strongly associated with severe refractory asthma and longitudinal clinical exacerbation frequency by altering sphingolipid metabolism and calcium homeostasis \cite{WangTantisira2016, Almacioglu2023, NevilleChoi2018}.
+\subsection{The 17q12-21.2 Locus (\textit{GSDMB} and \textit{ORMDL3})}
+The 17q12-21.2 chromosomal region contains a massive Linkage Disequilibrium (LD) block, meaning variants in \textit{GSDMB} and \textit{ORMDL3} are frequently co-inherited. Ascribing independent functional causality to specific SNPs in this region via GWAS is genetically inaccurate without deep mechanistic validation. Thus, the following SNPs should be interpreted as proxy markers for the entire 17q21 risk haplotype block rather than independent functional drivers.
+
+\textbf{rs7216389:} A robust proxy marker associated with increased \textit{GSDMB} and \textit{ORMDL3} transcript abundance. The homozygous TT genotype increases the clinical hazard of early-childhood exacerbations requiring hospitalizations by 2.66-fold \cite{ParkTantisira2017, KhanBano2025}. A meta-analysis of the PiCA consortium (n = 4,254) robustly associates the locus with hospitalizations despite ICS use \cite{FarzanVijverberg2018, HernandezPachecoVijverberg2020}.
+\textbf{rs2305480:} The G risk allele associates with longitudinal clinical exacerbations and demonstrates powerful epistasis (gene-gene interaction) with the \textit{CDHR3} locus. Specifically, exacerbations triggered by rhinovirus-C (RV-C) rely on \textit{CDHR3} as a viral entry receptor, which operates upstream of \textit{GSDMB}-mediated epithelial pyroptosis, combining to confer an 11-fold increased risk of severe childhood asthma \cite{LiChristenson2021, EliasenPedersen2022}.
+\textbf{rs4794820:} A highly correlated variant in \textit{ORMDL3} strongly associated with severe refractory asthma and longitudinal clinical exacerbation frequency. Pathway analyses suggest this block drives disease by altering sphingolipid metabolism and rhinovirus-induced antiviral IFN-$\beta$ production \cite{WangTantisira2016, Almacioglu2023, NevilleChoi2018}.
 
 \subsection{\textit{CTNNA3}}
-\textbf{rs7915695:} This intronic variant regulates alpha-T-catenin in epithelial adherens junctions. Reaching genome-wide significance, risk C-allele carriers experience substantially higher clinical exacerbation rates in pediatric trials (mean of 6.05 vs 3.71 AEs) \cite{McGeachieWu2015}. Mechanistic eQTL data suggest this is driven by reduced \textit{CTNNA3} mRNA expression in CD4+ lymphocytes, weakening epithelial integrity and predisposing the airway to mechanical instability \cite{McGeachieWu2015}.
+\textbf{rs7915695:} This intronic variant regulates alpha-T-catenin in epithelial adherens junctions. Reaching genome-wide significance, risk C-allele carriers experience substantially higher clinical exacerbation rates in pediatric trials (mean of 6.05 vs 3.71 AEs) \cite{McGeachieWu2015}. While statistical eQTL data suggest an associative correlation with reduced \textit{CTNNA3} mRNA expression in CD4+ lymphocytes, further functional validation is required to definitively prove this pathway weakens epithelial integrity and predisposes the airway to mechanical instability \cite{McGeachieWu2015}.
 
 \subsection{\textit{ADIPOQ}}
 \textbf{$11377\text{C}>\text{G}$:} While rs1501299 specifically lacks strong direct exacerbation evidence, \textit{ADIPOQ} variants like 11377C>G drive profound hypoadiponectinemia. This metainflammation promotes clinical corticosteroid resistance, decreased lung compliance, and mechanical lung constraints characteristic of the severe obese-asthma phenotype \cite{GajewskaKuryowicz2016, PetersDixon2018, OlejnikKunarKamiska2024}.
@@ -258,10 +265,10 @@ Many loci, such as \textit{CHI3L1} rs4950928, specifically modulate the risk of 
 \section{Biological Interpretation of Findings}
 
 \subsection{Type 2 Inflammation Pathway (\textit{IL4, IL4RA, IL10})}
-Variants in \textit{IL4} and \textit{IL4RA} function as gain-of-function mutations that amplify Th2 polarization, mast cell recruitment, and IgE production. \textit{IL10} promoter deficiencies remove the homeostatic brake on these pathways \cite{MasoodOthman2025, RamachandraDavoodi2015}.
+Variants in \textit{IL4} and \textit{IL4RA} function as gain-of-function mutations that amplify Th2 polarization, mast cell recruitment, and IgE production. \textit{IL10} promoter deficiencies remove the homeostatic brake on these pathways \cite{MasoodOthman2025, RamachandraDavoodi2015}. Clinically, these variants heavily predispose patients to distinct \textbf{Type-2 (T2-High) exacerbation endotypes}, characterized by pronounced peripheral blood and sputum eosinophilia, elevated Fractional Exhaled Nitric Oxide (FeNO), and robust responsiveness to systemic corticosteroids and biologic therapies (e.g., anti-IL-4R$\alpha$).
 
 \subsection{Airway Remodeling Pathway (\textit{TGFB1, CTNNA3, SEMA3D})}
-\textit{TGFB1} overexpression drives subepithelial fibrosis, while \textit{CTNNA3} and \textit{SEMA3D} defects impair epithelial adherens junctions and dysregulate angiogenesis \cite{KowinJonakowski2025, IerodiakonouPortelli2016}.
+\textit{TGFB1} overexpression drives subepithelial fibrosis, while \textit{CTNNA3} and \textit{SEMA3D} defects impair epithelial adherens junctions and dysregulate angiogenesis \cite{KowinJonakowski2025, IerodiakonouPortelli2016}. In stark contrast to the T2-High loci, variants in these tissue remodeling and structural genes map to \textbf{non-T2 (T2-Low) exacerbation endotypes}. These neutrophilic or paucigranulocytic flares are driven by structural mechanical instability rather than eosinophilic inflammation, rendering them notoriously refractory to standard high-dose corticosteroid interventions.
 
 \subsection{$\beta$2-Adrenergic Signaling (\textit{ADRB2})}
 Mutations altering receptor downregulation and tachyphylaxis (\textit{ADRB2}) render airway smooth muscle unresponsive to rescue bronchodilators during active inflammation \cite{KachkovskaKovchun2021, MohamedHusseinSayed2018}.
@@ -356,9 +363,9 @@ From a clinical and translational perspective, identifying patients with these h
 \endfoot
 \bottomrule
 \endlastfoot
-PubMed & ("Asthma"[Mesh] OR "asthma"[Title/Abstract]) AND ("Asthma/complications"[Mesh] OR "Disease Progression"[Mesh] OR "Exacerbation*"[Title/Abstract] OR "Severe"[Title/Abstract] OR "Hospitalization"[Title/Abstract]) AND ("Polymorphism, Single Nucleotide"[Mesh] OR "Polymorphism"[Title/Abstract] OR "SNP"[Title/Abstract] OR "Variant"[Title/Abstract] OR "Genome-Wide Association Study"[Mesh] OR "GWAS"[Title/Abstract]) AND (ADRB2 OR IL4 OR IL4RA OR TNFA OR NR3C1 OR PPARG OR TGFB1 OR IL10 OR CHI3L1 OR GSDMB OR CTNNA3 OR ADIPOQ OR SEMA3D) \\
+PubMed & ("Asthma"[Mesh] OR "asthma"[Title/Abstract]) AND ("Asthma/complications"[Mesh] OR "Disease Progression"[Mesh] OR "Exacerbation*"[Title/Abstract] OR "Severe"[Title/Abstract] OR "Hospitalization"[Title/Abstract]) AND ("Polymorphism, Single Nucleotide"[Mesh] OR "Polymorphism"[Title/Abstract] OR "SNP"[Title/Abstract] OR "Variant"[Title/Abstract] OR "Genome-Wide Association Study"[Mesh] OR "GWAS"[Title/Abstract]) AND (ADRB2 OR IL4 OR IL4RA OR TNFA OR NR3C1 OR PPARG OR TGFB1 OR IL10 OR CHI3L1 OR GSDMB OR CTNNA3 OR ADIPOQ OR SEMA3D OR FCER2 OR GLCCI1) \\
 \midrule
-Embase & ('asthma'/exp OR asthma:ti,ab) AND ('disease exacerbation'/exp OR exacerbation:ti,ab OR severe:ti,ab OR hospitalization:ti,ab) AND ('single nucleotide polymorphism'/exp OR SNP:ti,ab OR variant:ti,ab OR GWAS:ti,ab) AND (ADRB2 OR IL4 OR IL4RA OR TNFA OR NR3C1 OR PPARG OR TGFB1 OR IL10 OR CHI3L1 OR GSDMB OR CTNNA3 OR ADIPOQ OR SEMA3D) \\
+Embase & ('asthma'/exp OR asthma:ti,ab) AND ('disease exacerbation'/exp OR exacerbation:ti,ab OR severe:ti,ab OR hospitalization:ti,ab) AND ('single nucleotide polymorphism'/exp OR SNP:ti,ab OR variant:ti,ab OR GWAS:ti,ab) AND (ADRB2 OR IL4 OR IL4RA OR TNFA OR NR3C1 OR PPARG OR TGFB1 OR IL10 OR CHI3L1 OR GSDMB OR CTNNA3 OR ADIPOQ OR SEMA3D OR FCER2 OR GLCCI1) \\
 \midrule
 GWAS Catalog & (Asthma) AND (Exacerbation) \\
 \midrule
