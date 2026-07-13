@@ -96,7 +96,7 @@ The methodological quality and risk of bias for included studies were assessed u
 A narrative synthesis of the findings was conducted, categorizing evidence by specific genes and their biological pathways. Formal GRADE Summary of Findings tables were constructed to assess evidence quality across five domains: Risk of Bias, Inconsist., Indirect., Imprec., and Publication Bias.
 
 \subsection{Statistical Analysis}
-Where $\ge3$ clinically comparable studies were identified for a specific SNP and clinical endpoint with minimal clinical heterogeneity, we conducted meta-analytical pooling using a random-effects model. Heterogeneity was assessed using Cochran's Q statistic and the $I^2$ index. Publication bias was evaluated via Funnel plots and Egger's test. For loci exhibiting high clinical heterogeneity (e.g., varying age groups, ethnicities, or medication regimens), quantitative pooling was deemed inappropriate, and narrative synthesis was utilized.
+Where $\ge3$ clinically comparable studies were identified for a specific SNP and clinical endpoint with minimal clinical heterogeneity, we conducted meta-analytical pooling using a random-effects model. Heterogeneity was assessed using Cochran's Q statistic and the $I^2$ index. Formal statistical tests for publication bias (e.g., Funnel plots, Egger's test) were not performed, as the limited number of studies per meta-analysis ($k < 10$) renders these methods mathematically invalid and underpowered. For loci exhibiting high clinical heterogeneity (e.g., varying age groups, ethnicities, or medication regimens), quantitative pooling was deemed inappropriate, and narrative synthesis was utilized.
 
 \section{Results}
 
@@ -148,7 +148,7 @@ The majority of included studies demonstrated moderate to high quality on the Ne
 \section{Associations Between Specific Genetic Variants and Asthma Exacerbations}
 
 \subsection{\textit{ADRB2}}
-\textbf{rs1042713 (Arg16Gly):} This variant modulates $\beta2$-receptor downregulation and desensitization. In children treated with combination ICS+LABA, the Arg16 (A) allele is associated with an increased risk of exacerbations, likely due to enhanced agonist-promoted receptor tachyphylaxis \cite{TurnerFrancis2016, SlobRichards2021}. Meta-analysis of 3 comparable pediatric cohorts confirms this risk (Pooled OR: 1.52, 95\% CI: 1.17–1.99, P=0.0021), with minimal heterogeneity ($I^2 = 0\%$) \cite{TurnerFrancis2016}. See Figure \ref{fig:forest}. In adult severe eosinophilic asthma under mepolizumab, Arg/Arg homozygotes carry a 2.3-fold higher hazard of severe exacerbations \cite{NolascoFagone2025}.
+\textbf{rs1042713 (Arg16Gly):} This variant modulates $\beta2$-receptor downregulation and desensitization. In children treated with combination ICS+LABA, the Arg16 (A) allele is associated with an increased risk of exacerbations, likely due to enhanced agonist-promoted receptor tachyphylaxis \cite{TurnerFrancis2016, SlobRichards2021}. Meta-analysis of 3 comparable pediatric cohorts indicates a pooled risk (Pooled OR: 1.52, 95\% CI: 1.17–1.99, P=0.0021; Figure \ref{fig:forest}) \cite{TurnerFrancis2016}. However, due to the limited number of studies ($k=3$), the random-effects estimation of between-study variance and the reported heterogeneity metrics ($I^2 = 0\%$, Cochran's Q $p > 0.05$) are statistically underpowered and should be interpreted with caution. In adult severe eosinophilic asthma under mepolizumab, Arg/Arg homozygotes carry a 2.3-fold higher hazard of severe exacerbations \cite{NolascoFagone2025}.
 \textbf{rs1042714 (Gln27Glu):} The homozygous Glu27 (G allele) genotype is significantly associated with severe uncontrolled asthma (OR: 1.75) and increased exacerbation frequencies during active ICS use \cite{RodriguesFilho2025, SoodConnolly2018}. Haplotype combinations (Arg16/Gln27) strongly increase bronchial hyperresponsiveness \cite{KarimiVijverberg2021}.
 
 \begin{figure}[ht]
@@ -289,7 +289,7 @@ While single SNPs lack the positive predictive value for routine clinical screen
 This review systematically delineates the divergence between general asthma susceptibility and specific exacerbation severity. Furthermore, we categorize associations by functional biological pathways \cite{PortelliRakkar2021}.
 
 \subsection{Limitations of Included Studies}
-Many retrospective biobank studies fail to control for medication adherence (e.g., ICS use), environmental tobacco smoke, or local allergen exposure, introducing significant confounding \cite{ChaChoi2023, ShukurAlyaqubi2021}.
+Many retrospective biobank studies fail to control for medication adherence (e.g., ICS use), environmental tobacco smoke, or local allergen exposure, introducing significant confounding \cite{ChaChoi2023, ShukurAlyaqubi2021}. Crucially, many studies rely on a "candidate gene" approach without rigorous multiple-testing corrections (e.g., Bonferroni or False Discovery Rate). This introduces a severe risk of Type I errors and the "winner's curse," wherein initial effect sizes are grossly overestimated. To validate these associations, independent replication cohorts meeting strict genome-wide significance thresholds ($p < 5 \times 10^{-8}$) remain essential. Furthermore, because asthma exacerbations are highly dynamic events triggered by environmental stressors, the failure of many source studies to explicitly model Gene $\times$ Environment (GxE) interactions or adjust for time-varying covariates like cumulative corticosteroid dose means that the reported marginal genetic effect sizes may be substantially biased.
 
 \subsection{Limitations of the Review}
 Language restrictions and the predominant overrepresentation of European-ancestry populations in the original source data limit universal generalizability \cite{HerreraLuisOrtega2022}.
@@ -300,7 +300,7 @@ Future studies must integrate large, multi-ancestry cohorts to account for linka
 \section{Conclusions}
 The genetic architecture of asthma exacerbations reveals a highly complex, polygenic landscape distinct from baseline asthma susceptibility. As underscored by our synthesis, exacerbation risk is disproportionately driven by variants dictating structural airway integrity, epithelial barrier function, and dysregulated type 2 inflammation. High-confidence loci such as \textit{GSDMB} rs7216389, \textit{CDHR3}, and \textit{CTNNA3} definitively uncouple acute structural vulnerability from simple eosinophilic pathways, illustrating why exacerbations occur even under maximal immunomodulatory therapy. Conversely, polymorphisms in \textit{IL4RA} (rs1801275) and \textit{TGFB1} (rs1800469) highlight the synergistic risk between pro-inflammatory cascades and progressive airway remodeling.
 
-From a clinical and translational perspective, identifying patients with these high-risk genotypes provides a critical opportunity for personalized pulmonology. Rather than relying solely on reactive, phenotype-based management, preemptive genotypic stratification can identify patients requiring earlier deployment of targeted biologics (e.g., anti-IL-4R$\alpha$ or anti-TSLP) or enhanced environmental mitigation strategies. Ultimately, integrating these robust, exacerbation-specific genomic profiles into polygenic risk scores and routine clinical practice will be paramount in shifting the paradigm from managing asthma exacerbations to predicting and preventing them \cite{TseKrajinovic2019, ShiZhang2022}.
+From a clinical and translational perspective, identifying patients with these high-risk genotypes provides a critical opportunity for personalized pulmonology. Rather than relying solely on reactive, phenotype-based management, preemptive genotypic stratification could theoretically identify patients requiring earlier deployment of targeted biologics (e.g., anti-IL-4R$\alpha$ or anti-TSLP) or enhanced environmental mitigation strategies. However, it must be emphasized that single variants and small candidate-gene panels typically explain less than 5\% of the phenotypic variance in complex traits like asthma exacerbations. Integrating these exacerbation-specific genomic profiles into comprehensive Polygenic Risk Scores (PRS) holds potential, but shifting the paradigm from management to true clinical prediction will first require rigorous statistical validation demonstrating high discrimination (e.g., AUC or C-statistics) in large, independent, hold-out cohorts \cite{TseKrajinovic2019, ShiZhang2022}.
 
 \clearpage
 \section*{Supplementary Materials}
@@ -422,12 +422,12 @@ Gene & \textbf{Risk of Bias} & Inconsist. & Indirect. & Imprec. & Pub Bias & \te
 \endfoot
 \bottomrule
 \endlastfoot
-\textit{GSDMB} rs7216389 & Not serious & Not serious & Not serious & Not serious & Undetected & \textbf{High} \\
-\textit{CDHR3} rs6967330 & Not serious & Not serious & Not serious & Not serious & Undetected & \textbf{High} \\
-\textit{ADRB2} rs1042713 & Not serious & Serious & Not serious & Not serious & Undetected & \textbf{Moderate} \\
-\textit{IL4RA} rs1801275 & Not serious & Serious & Not serious & Not serious & Undetected & \textbf{Moderate} \\
-\textit{TGFB1} rs1800469 & Serious & Serious & Not serious & Serious & Undetected & \textbf{Very Low} \\
-\textit{SEMA3D} rs993312 & Not serious & Serious & Not serious & Serious & Undetected & \textbf{Low} \\
+\textit{GSDMB} rs7216389 & Not serious & Not serious & Not serious & Not serious & Not Evaluable & \textbf{High} \\
+\textit{CDHR3} rs6967330 & Not serious & Not serious & Not serious & Not serious & Not Evaluable & \textbf{High} \\
+\textit{ADRB2} rs1042713 & Not serious & Serious & Not serious & Not serious & Not Evaluable & \textbf{Moderate} \\
+\textit{IL4RA} rs1801275 & Not serious & Serious & Not serious & Not serious & Not Evaluable & \textbf{Moderate} \\
+\textit{TGFB1} rs1800469 & Serious & Serious & Not serious & Serious & Not Evaluable & \textbf{Very Low} \\
+\textit{SEMA3D} rs993312 & Not serious & Serious & Not serious & Serious & Not Evaluable & \textbf{Low} \\
 \end{longtable}\end{center}
 
 \bibliographystyle{unsrt}
