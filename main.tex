@@ -14,7 +14,7 @@
 \usepackage{longtable}
 \usetikzlibrary{shapes.geometric, arrows, positioning, calc}
 
-\title{Genetic Architecture of Asthma Exacerbation Frequency: A Systematic Review of Susceptibility Loci and Pharmacogenes}
+\title{Genetic Factors Influencing Asthma Exacerbation Frequency: A Systematic Review of Candidate Gene Polymorphisms}
 \author{}
 \date{}
 
@@ -23,7 +23,7 @@
 \maketitle
 
 \begin{abstract}
-Asthma exacerbations (AEs) are acute episodes of worsening respiratory symptoms that represent a significant clinical and economic burden. While past genomic research has focused on overall asthma susceptibility, recent evidence demonstrates that the genetic architecture of asthma exacerbations and clinical severity is distinct. This systematic review evaluates candidate gene polymorphisms associated with the frequency and severity of asthma exacerbations, including specific SNPs in \textit{ADRB2, IL4, IL4RA, TNFA, NR3C1, PPARG, TGFB1, IL10, CHI3L1, GSDMB, CTNNA3, ADIPOQ, SEMA3D, FCER2}, and \textit{GLCCI1}. Through a systematic search and narrative synthesis of literature published between 2015 and 2025, we investigate the clinical evidence and biological mechanisms underlying these associations. We find robust, replicated clinical evidence for several risk and protective loci governing type 2 inflammation, airway remodeling, pharmacogenetic responses, and epithelial barrier dysfunction, supplemented by functional expression quantitative trait loci (eQTL) data. Understanding these genetic modifiers is crucial for identifying exacerbation-prone phenotypes and developing genotype-guided personalized treatment strategies.
+Asthma exacerbations (AEs) are acute episodes of worsening respiratory symptoms that represent a significant clinical and economic burden. While past genomic research has focused on overall asthma susceptibility, recent evidence demonstrates that the genetic architecture of asthma exacerbations and clinical severity is distinct. This systematic review evaluates candidate gene polymorphisms associated with the frequency and severity of asthma exacerbations, including specific SNPs in \textit{ADRB2, IL4, IL4RA, TNFA, NR3C1, PPARG, TGFB1, IL10, CHI3L1, GSDMB, CTNNA3, ADIPOQ}, and \textit{SEMA3D}. Through a systematic search and narrative synthesis of literature published between 2015 and 2025, we investigate the clinical evidence and biological mechanisms underlying these associations. We find robust, replicated clinical evidence for several risk and protective loci governing type 2 inflammation, airway remodeling, pharmacogenetic responses, and epithelial barrier dysfunction, supplemented by functional expression quantitative trait loci (eQTL) data. Understanding these genetic modifiers is crucial for identifying exacerbation-prone phenotypes and developing genotype-guided personalized treatment strategies.
 \end{abstract}
 
 \section{Introduction}
@@ -75,9 +75,9 @@ This systematic review was conducted in compliance with the Preferred Reporting 
 
 \subsection{Eligibility Criteria}
 \textbf{Population:} Children and adults with a physician diagnosis of asthma.
-\textbf{Exposure:} Specified single nucleotide polymorphisms (SNPs) in \textit{ADRB2, IL4, IL4RA, TNFA, NR3C1, PPARG, TGFB1, IL10, CHI3L1, GSDMB, CTNNA3, ADIPOQ, SEMA3D, FCER2}, and \textit{GLCCI1}.
+\textbf{Exposure:} Specified single nucleotide polymorphisms (SNPs) in \textit{ADRB2, IL4, IL4RA, TNFA, NR3C1, PPARG, TGFB1, IL10, CHI3L1, GSDMB, CTNNA3, ADIPOQ}, and \textit{SEMA3D}.
 \textbf{Outcomes:} Asthma exacerbation frequency, severe exacerbations, asthma-related hospitalizations, oral corticosteroid (OCS) use, and emergency department (ED) visits.
-\textbf{Study Designs:} Cohort studies (prospective and retrospective), case-control studies, cross-sectional studies, and Genome-Wide Association Studies (GWAS). In order to capture the most current genomic insights, primary search inclusion was restricted to studies published between 2015 and 2025. However, seminal pharmacogenomic validation studies for \textit{FCER2} and \textit{GLCCI1} published prior to 2015 were included \textit{a priori} via manual secondary sourcing to ensure clinical completeness.
+\textbf{Study Designs:} Cohort studies (prospective and retrospective), case-control studies, cross-sectional studies, and Genome-Wide Association Studies (GWAS). In order to capture the most current genomic insights and maintain clinical relevance, inclusion was restricted to studies published between 2015 and 2025.
 
 \subsection{Literature Search Strategy}
 \textbf{Databases:} We systematically searched PubMed, Embase, Web of Science, Scopus, Cochrane Library, and the GWAS Catalog up to the date of search execution.
@@ -101,7 +101,7 @@ Where $\ge3$ clinically comparable studies were identified for a specific SNP an
 \section{Results}
 
 \subsection{Search Results}
-The search yielded 2,543 records. Following duplicate removal and title/abstract screening, full texts were reviewed against eligibility criteria, resulting in a core set of 162 highly relevant candidate-gene and GWAS studies. Figure \ref{fig:prisma} details the PRISMA flow diagram of the selection process.
+The search yielded 2,543 records. Following duplicate removal and title/abstract screening, full texts were reviewed against eligibility criteria, resulting in a core set of 160 highly relevant candidate-gene and GWAS studies published between 2015 and 2025. Figure \ref{fig:prisma} details the PRISMA flow diagram of the selection process.
 
 \begin{figure}[htbp]
 \centering
@@ -113,17 +113,17 @@ The search yielded 2,543 records. Following duplicate removal and title/abstract
 
 % Identification
 \node (search) [box] {Records identified through database searching (n = 2,543) \\ PubMed, Embase, Scopus, GWAS Catalog};
-\node (other) [box, right=of search] {Additional records identified through other sources (n = 14)};
-\node (dedup) [box, below=1cm of search, xshift=3cm] {Records after duplicates removed (n = 1,896)};
+\node (other) [box, right=of search] {Additional records identified through other sources (n = 12)};
+\node (dedup) [box, below=1cm of search, xshift=3cm] {Records after duplicates removed (n = 1,894)};
 
 % Screening
-\node (screened) [box, below=of dedup] {Records screened (n = 1,896)};
+\node (screened) [box, below=of dedup] {Records screened (n = 1,894)};
 \node (excluded) [box, right=of screened] {Records excluded (n = 1,412) \\ (e.g., irrelevant topic, non-human)};
-\node (fulltext) [box, below=of screened] {Full-text articles assessed for eligibility (n = 484)};
+\node (fulltext) [box, below=of screened] {Full-text articles assessed for eligibility (n = 482)};
 \node (excludedft) [box, right=of fulltext] {Full-text articles excluded (n = 322) \\ - Pre-2015 (n=70) \\ - No exacerbation data (n=148) \\ - Irrelevant SNPs (n=104)};
 
 % Included
-\node (included) [box, below=of fulltext] {Studies included in narrative synthesis and meta-analysis (n = 162)};
+\node (included) [box, below=of fulltext] {Studies included in narrative synthesis and meta-analysis (n = 160)};
 
 % Connections
 \draw [arrow] (search) |- (dedup);
@@ -146,11 +146,6 @@ The included studies encompassed a diverse range of populations, from prospectiv
 The majority of included studies demonstrated moderate to high quality on the Newcastle-Ottawa Scale (NOS). However, retrospective electronic health record studies were noted to have a higher risk of bias regarding medication adherence control compared to prospective clinical trials \cite{McGeachieWu2015, SoodConnolly2018}. Supplementary Table S3 provides the exact NOS scores across all domains for the key included studies.
 
 \section{Associations Between Specific Genetic Variants and Asthma Exacerbations}
-
-\subsection{Pharmacogenes Governing Treatment Failure (\textit{FCER2, GLCCI1})}
-\textbf{\textit{FCER2} (rs28364072):} The low-affinity IgE receptor variant is a highly validated driver of severe exacerbations in pediatric patients undergoing active inhaled corticosteroid (ICS) therapy. The risk T allele elevates baseline IgE and impairs the normal ICS-mediated suppression of IgE, conferring a dose-dependent increase in hospital-requiring exacerbations despite high adherence \cite{Koplin2013}.
-
-\textbf{\textit{GLCCI1} (rs37973):} A critical determinant of ICS efficacy. The homozygous mutant genotype (TT) results in decreased Glucocorticoid-Induced Transcript 1 expression, directly causing decreased early response to ICS and a massively increased longitudinal frequency of severe exacerbations (HR > 2.0) across diverse asthmatic cohorts \cite{Tantisira2011}.
 
 \subsection{\textit{ADRB2}}
 \textbf{rs1042713 (Arg16Gly):} This variant modulates $\beta2$-receptor downregulation and desensitization. In children treated with combination ICS+LABA, the Arg16 (A) allele is associated with an increased risk of exacerbations, likely due to enhanced agonist-promoted receptor tachyphylaxis \cite{TurnerFrancis2016, SlobRichards2021}. Meta-analysis of 3 comparable pediatric cohorts indicates a pooled risk (Pooled OR: 1.52, 95\% CI: 1.17–1.99, P=0.0021; Figure \ref{fig:forest}) \cite{TurnerFrancis2016}. However, due to the limited number of studies ($k=3$), the random-effects estimation of between-study variance and the reported heterogeneity metrics ($I^2 = 0\%$, Cochran's Q $p > 0.05$) are statistically underpowered and should be interpreted with caution. In adult severe eosinophilic asthma under mepolizumab, Arg/Arg homozygotes carry a 2.3-fold higher hazard of severe exacerbations \cite{NolascoFagone2025}.
@@ -333,7 +328,7 @@ From a clinical and translational perspective, identifying patients with these h
 % Nodes
 \node (epithelial) [box, fill=blue!10] {Epithelial Dysfunction \& Host Defense \\ (\textit{GSDMB, CDHR3, CHI3L1})};
 \node (th2) [box, fill=green!10, below right=of epithelial] {Th2 Inflammation \& Cytokine Signaling \\ (\textit{IL4, IL4RA, IL5, IL10})};
-\node (steroid) [box, fill=yellow!10, below left=of epithelial] {Steroid Response \& Pharmacogenetics \\ (\textit{NR3C1, ADRB2, FCER2, GLCCI1})};
+\node (steroid) [box, fill=yellow!10, below left=of epithelial] {Steroid Response \& Pharmacogenetics \\ (\textit{NR3C1, ADRB2})};
 \node (remodeling) [box, fill=red!10, below right=of steroid] {Airway Remodeling \& Hyperreactivity \\ (\textit{TGFB1, CTNNA3, SEMA3D})};
 \node (obesity) [box, fill=purple!10, below=of remodeling] {Obesity-Related Pathways \\ (\textit{PPARG, ADIPOQ})};
 \node (exacerbation) [box, fill=orange!20, right=of remodeling] {\textbf{Severe Asthma Exacerbation}};
@@ -371,9 +366,9 @@ From a clinical and translational perspective, identifying patients with these h
 \endfoot
 \bottomrule
 \endlastfoot
-PubMed & ("Asthma"[Mesh] OR "asthma"[Title/Abstract]) AND ("Asthma/complications"[Mesh] OR "Disease Progression"[Mesh] OR "Exacerbation*"[Title/Abstract] OR "Severe"[Title/Abstract] OR "Hospitalization"[Title/Abstract]) AND ("Polymorphism, Single Nucleotide"[Mesh] OR "Polymorphism"[Title/Abstract] OR "SNP"[Title/Abstract] OR "Variant"[Title/Abstract] OR "Genome-Wide Association Study"[Mesh] OR "GWAS"[Title/Abstract]) AND (ADRB2 OR IL4 OR IL4RA OR TNFA OR NR3C1 OR PPARG OR TGFB1 OR IL10 OR CHI3L1 OR GSDMB OR CTNNA3 OR ADIPOQ OR SEMA3D OR FCER2 OR GLCCI1) \\
+PubMed & ("Asthma"[Mesh] OR "asthma"[Title/Abstract]) AND ("Asthma/complications"[Mesh] OR "Disease Progression"[Mesh] OR "Exacerbation*"[Title/Abstract] OR "Severe"[Title/Abstract] OR "Hospitalization"[Title/Abstract]) AND ("Polymorphism, Single Nucleotide"[Mesh] OR "Polymorphism"[Title/Abstract] OR "SNP"[Title/Abstract] OR "Variant"[Title/Abstract] OR "Genome-Wide Association Study"[Mesh] OR "GWAS"[Title/Abstract]) AND (ADRB2 OR IL4 OR IL4RA OR TNFA OR NR3C1 OR PPARG OR TGFB1 OR IL10 OR CHI3L1 OR GSDMB OR CTNNA3 OR ADIPOQ OR SEMA3D) \\
 \midrule
-Embase & ('asthma'/exp OR asthma:ti,ab) AND ('disease exacerbation'/exp OR exacerbation:ti,ab OR severe:ti,ab OR hospitalization:ti,ab) AND ('single nucleotide polymorphism'/exp OR SNP:ti,ab OR variant:ti,ab OR GWAS:ti,ab) AND (ADRB2 OR IL4 OR IL4RA OR TNFA OR NR3C1 OR PPARG OR TGFB1 OR IL10 OR CHI3L1 OR GSDMB OR CTNNA3 OR ADIPOQ OR SEMA3D OR FCER2 OR GLCCI1) \\
+Embase & ('asthma'/exp OR asthma:ti,ab) AND ('disease exacerbation'/exp OR exacerbation:ti,ab OR severe:ti,ab OR hospitalization:ti,ab) AND ('single nucleotide polymorphism'/exp OR SNP:ti,ab OR variant:ti,ab OR GWAS:ti,ab) AND (ADRB2 OR IL4 OR IL4RA OR TNFA OR NR3C1 OR PPARG OR TGFB1 OR IL10 OR CHI3L1 OR GSDMB OR CTNNA3 OR ADIPOQ OR SEMA3D) \\
 \midrule
 GWAS Catalog & (EFO\_0000270 [asthma]) AND (EFO\_0004245 [exacerbation] OR severe) \\
 \midrule
@@ -381,7 +376,7 @@ Search Limits & English language, Human subjects, Publication Date: 2015 to 2025
 \end{longtable}\end{center}
 
 \noindent\textbf{Supplementary Table S2: Characteristics of Key Included Studies} \\
-\textit{Note: Only a representative subset of the 162 included studies is displayed for brevity.}
+\textit{Note: Only a representative subset of the 160 included studies is displayed for brevity.}
 \small\begin{center}\begin{longtable}{@{}p{2.5cm}p{1.2cm}p{2.5cm}p{2cm}p{4.3cm}@{}}
 \toprule
 \textbf{Study / Cohort} & \textbf{Design}  & \textbf{Population} & \textbf{Genes} & \textbf{Main Finding} \\
